@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>امتحان العملي - مدرسة الروضة الإعدادية الخاصة</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-shapes" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <main class="app-shell">
+    <header class="top-header">
+      <img src="assets/logo.png" alt="شعار مدرسة الروضة" class="school-logo" />
+      <div class="school-title">
+        <h1>مدرسة الروضة الإعدادية الخاصة</h1>
+        <h2>امتحان العملي لمادة تكنولوجيا المعلومات والاتصالات للصف الأول الإعدادي</h2>
+        <p>إعداد / أ. حبيبة خالد</p>
+      </div>
+    </header>
+
+    <section id="startScreen" class="card screen active">
+      <div class="hero-badge">🎮 Quiz Adventure</div>
+      <h3>جاهز تبدأ مغامرة التكنولوجيا؟</h3>
+      <p class="lead">اختبر معلوماتك في Scratch و Python بطريقة ممتعة ولطيفة. كل سؤال له أربع اختيارات، وبعد إجابتك ستعرف النتيجة فورًا.</p>
+      <form id="studentForm" class="student-form" autocomplete="off">
+        <label for="studentName">اكتب اسمك أولًا ✍️</label>
+        <input id="studentName" type="text" placeholder="مثال: أحمد محمد" required minlength="2" />
+        <button id="startBtn" class="primary-btn" type="submit">ابدأ 6 أسئلة عشوائية 🚀</button>
+      </form>
+
+      <div class="start-stats">
+        <div><strong>60</strong><span>سؤال مخزن</span></div>
+        <div><strong>6</strong><span>أسئلة لكل طالب</span></div>
+        <div><strong>💾</strong><span>حفظ الاسم والدرجة</span></div>
+      </div>
+
+      <div class="teacher-tools">
+        <button id="showRecordsBtn" class="ghost-btn" type="button">عرض سجل النتائج 📋</button>
+        <button id="exportCsvBtn" class="ghost-btn" type="button">تحميل النتائج CSV ⬇️</button>
+        <button id="clearRecordsBtn" class="danger-btn" type="button">مسح السجل 🗑️</button>
+      </div>
+      <div id="recordsPanel" class="records-panel hidden"></div>
+      <p id="loadMessage" class="tiny-note">يتم تحميل بنك الأسئلة...</p>
+    </section>
+
+    <section id="quizScreen" class="card screen">
+      <div class="quiz-topbar">
+        <div class="pill" id="topicPill">Scratch</div>
+        <div class="counter" id="questionCounter">السؤال 1 من 6</div>
+      </div>
+
+      <div class="progress-wrap" aria-label="نسبة التقدم">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+
+      <div id="reaction" class="reaction" aria-live="polite"></div>
+
+      <article class="question-box">
+        <h3 id="questionText">السؤال يظهر هنا</h3>
+        <div id="optionsGrid" class="options-grid"></div>
+      </article>
+
+      <div id="feedbackBox" class="feedback-box" aria-live="polite"></div>
+
+      <div class="actions-row">
+        <button id="submitBtn" class="secondary-btn" disabled>تأكيد الإجابة ✨</button>
+        <button id="nextBtn" class="primary-btn hidden">السؤال التالي ➜</button>
+      </div>
+    </section>
+
+    <section id="resultScreen" class="card screen result-card">
+      <div id="resultEmoji" class="result-emoji">🏆</div>
+      <h3>انتهت المغامرة!</h3>
+      <p id="studentResultText" class="student-result-text"></p>
+      <p id="scoreText" class="score-text"></p>
+      <p id="performanceText" class="performance-text"></p>
+      <div class="result-meter">
+        <div id="resultMeterFill"></div>
+      </div>
+      <button id="restartBtn" class="primary-btn">إعادة الاختبار 🔄</button>
+    </section>
+  </main>
+
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
