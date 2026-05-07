@@ -1,0 +1,662 @@
+[
+  {
+    "id": 1,
+    "question": "برنامج سكراتش يستخدم في إنشاء مشروعات تعتمد على:",
+    "options": [
+      "اللبنات البرمجية",
+      "الجداول الحسابية فقط",
+      "تحرير الصور فقط",
+      "كتابة النصوص فقط"
+    ],
+    "answer": "اللبنات البرمجية"
+  },
+  {
+    "id": 2,
+    "question": "في واجهة سكراتش، المنطقة التي تضم مجموعات الأوامر تسمى:",
+    "options": [
+      "منطقة مجموعات الأوامر",
+      "منطقة الكائنات",
+      "شريط القوائم",
+      "منطقة المنصة"
+    ],
+    "answer": "منطقة مجموعات الأوامر"
+  },
+  {
+    "id": 3,
+    "question": "في واجهة سكراتش، المكان الذي يتم فيه عرض حركة الكائن هو:",
+    "options": [
+      "منطقة المنصة / المسرح",
+      "شريط القوائم",
+      "منطقة الكائنات",
+      "منطقة حفظ الملف"
+    ],
+    "answer": "منطقة المنصة / المسرح"
+  },
+  {
+    "id": 4,
+    "question": "في واجهة سكراتش، المنطقة التي تحتوي على صور الكائنات المستخدمة في المشروع هي:",
+    "options": [
+      "منطقة الكائنات",
+      "منطقة المنصة",
+      "شريط القوائم",
+      "مجموعة Motion"
+    ],
+    "answer": "منطقة الكائنات"
+  },
+  {
+    "id": 5,
+    "question": "شريط القوائم في برنامج سكراتش يظهر ضمن:",
+    "options": [
+      "واجهة البرنامج الرئيسية",
+      "منطقة الكائن فقط",
+      "قائمة الأصوات فقط",
+      "منصة العرض فقط"
+    ],
+    "answer": "واجهة البرنامج الرئيسية"
+  },
+  {
+    "id": 6,
+    "question": "لتحريك الكائن 30 خطوة في سكراتش نستخدم الأمر:",
+    "options": [
+      "move 10 steps ثم تعديل القيمة إلى 30",
+      "say Hello",
+      "wait 1 secs",
+      "save to your computer"
+    ],
+    "answer": "move 10 steps ثم تعديل القيمة إلى 30"
+  },
+  {
+    "id": 7,
+    "question": "الأمر say Hello في سكراتش يوجد ضمن مجموعة:",
+    "options": [
+      "Look",
+      "Motion",
+      "Control",
+      "Sound"
+    ],
+    "answer": "Look"
+  },
+  {
+    "id": 8,
+    "question": "الأمر move 10 steps في سكراتش يوجد ضمن مجموعة:",
+    "options": [
+      "Motion",
+      "Look",
+      "Events",
+      "Sound"
+    ],
+    "answer": "Motion"
+  },
+  {
+    "id": 9,
+    "question": "لبدء تنفيذ مشروع سكراتش عند الضغط على العلم الأخضر نستخدم الأمر:",
+    "options": [
+      "when green flag clicked",
+      "move 10 steps",
+      "say Hello",
+      "play sound"
+    ],
+    "answer": "when green flag clicked"
+  },
+  {
+    "id": 10,
+    "question": "الأمر when green flag clicked يوجد داخل مجموعة:",
+    "options": [
+      "Events Blocks",
+      "Motion",
+      "Look",
+      "Sound"
+    ],
+    "answer": "Events Blocks"
+  },
+  {
+    "id": 11,
+    "question": "لعرض تنفيذ خطوات المشروع في سكراتش يتم الضغط على:",
+    "options": [
+      "رمز العلم الأخضر",
+      "زر الحفظ فقط",
+      "اسم الكائن",
+      "قيمة الاتجاه"
+    ],
+    "answer": "رمز العلم الأخضر"
+  },
+  {
+    "id": 12,
+    "question": "لحفظ مشروع سكراتش داخل ملف نبدأ من:",
+    "options": [
+      "قائمة ملف",
+      "مجموعة Motion",
+      "مجموعة Sound",
+      "منطقة الكائنات"
+    ],
+    "answer": "قائمة ملف"
+  },
+  {
+    "id": 13,
+    "question": "أمر حفظ مشروع سكراتش على جهاز الكمبيوتر هو:",
+    "options": [
+      "save to your computer",
+      "go to random position",
+      "play sound",
+      "repeat"
+    ],
+    "answer": "save to your computer"
+  },
+  {
+    "id": 14,
+    "question": "عند حفظ مشروع سكراتش يتم كتابة اسم الملف مثل:",
+    "options": [
+      "مشروع 1",
+      "Sprite 1",
+      "Motion",
+      "Downloads"
+    ],
+    "answer": "مشروع 1"
+  },
+  {
+    "id": 15,
+    "question": "من خطوات حفظ مشروع سكراتش تحديد:",
+    "options": [
+      "مكان حفظ الملف على أحد وسائط التخزين",
+      "عدد الحركات العشوائية فقط",
+      "لون الخلفية فقط",
+      "نوع الصوت فقط"
+    ],
+    "answer": "مكان حفظ الملف على أحد وسائط التخزين"
+  },
+  {
+    "id": 16,
+    "question": "لجعل الكائن ينتظر ثانية واحدة في سكراتش نستخدم الأمر:",
+    "options": [
+      "wait 1 secs",
+      "say Hello",
+      "move 10 steps",
+      "go to random position"
+    ],
+    "answer": "wait 1 secs"
+  },
+  {
+    "id": 17,
+    "question": "الأمر wait 1 secs يوجد ضمن مجموعة:",
+    "options": [
+      "Control",
+      "Sound",
+      "Motion",
+      "Look"
+    ],
+    "answer": "Control"
+  },
+  {
+    "id": 18,
+    "question": "الترتيب الصحيح لمشروع: عند الضغط على العلم ثم التحريك ثم الانتظار ثم ظهور Hello هو:",
+    "options": [
+      "when green flag clicked ثم move ثم wait ثم say",
+      "say ثم wait ثم move ثم when",
+      "move ثم say ثم when ثم wait",
+      "wait ثم when ثم say ثم move"
+    ],
+    "answer": "when green flag clicked ثم move ثم wait ثم say"
+  },
+  {
+    "id": 19,
+    "question": "في خصائص الكائن داخل سكراتش، Sprite يشير إلى:",
+    "options": [
+      "اسم الكائن",
+      "اتجاه الكائن",
+      "حجم الكائن",
+      "مكان الكائن"
+    ],
+    "answer": "اسم الكائن"
+  },
+  {
+    "id": 20,
+    "question": "في خصائص الكائن داخل سكراتش، x و y يستخدمان لتحديد:",
+    "options": [
+      "مكان الكائن",
+      "اسم الكائن",
+      "حجم الكائن",
+      "إخفاء الكائن"
+    ],
+    "answer": "مكان الكائن"
+  },
+  {
+    "id": 21,
+    "question": "في خصائص الكائن داخل سكراتش، Direction يشير إلى:",
+    "options": [
+      "اتجاه حركة الكائن",
+      "اسم الكائن",
+      "مكان الحفظ",
+      "نوع الملف"
+    ],
+    "answer": "اتجاه حركة الكائن"
+  },
+  {
+    "id": 22,
+    "question": "في خصائص الكائن داخل سكراتش، Size يشير إلى:",
+    "options": [
+      "حجم الكائن",
+      "اسم الكائن",
+      "اتجاه الكائن",
+      "تشغيل الصوت"
+    ],
+    "answer": "حجم الكائن"
+  },
+  {
+    "id": 23,
+    "question": "في سكراتش، يمكن إظهار أو إخفاء الكائن من خلال:",
+    "options": [
+      "خاصية Show",
+      "قائمة Downloads",
+      "الأمر type",
+      "الموقع python.org"
+    ],
+    "answer": "خاصية Show"
+  },
+  {
+    "id": 24,
+    "question": "لإضافة كائن جديد في سكراتش نستخدم:",
+    "options": [
+      "زر إضافة كائن",
+      "قائمة Downloads",
+      "الأمر print فقط",
+      "الأمر type فقط"
+    ],
+    "answer": "زر إضافة كائن"
+  },
+  {
+    "id": 25,
+    "question": "لتحريك الكرة حركات عشوائية على المنصة نستخدم الأمر:",
+    "options": [
+      "go to random position",
+      "say Hello",
+      "save to your computer",
+      "type(A)"
+    ],
+    "answer": "go to random position"
+  },
+  {
+    "id": 26,
+    "question": "الأمر go to random position يوجد ضمن مجموعة:",
+    "options": [
+      "Motion",
+      "Sound",
+      "Look",
+      "Events"
+    ],
+    "answer": "Motion"
+  },
+  {
+    "id": 27,
+    "question": "لتكرار حركة الكرة عدد 10 مرات في سكراتش نستخدم:",
+    "options": [
+      "repeat مع تحديد القيمة 10",
+      "say لمدة ثانيتين",
+      "type(name)",
+      "اختيار 64bit"
+    ],
+    "answer": "repeat مع تحديد القيمة 10"
+  },
+  {
+    "id": 28,
+    "question": "الأمر repeat يوجد ضمن مجموعة:",
+    "options": [
+      "Control",
+      "Motion",
+      "Sound",
+      "Look"
+    ],
+    "answer": "Control"
+  },
+  {
+    "id": 29,
+    "question": "لتشغيل صوت للكرة في سكراتش نستخدم الأمر:",
+    "options": [
+      "play sound",
+      "move steps",
+      "save to your computer",
+      "Downloads"
+    ],
+    "answer": "play sound"
+  },
+  {
+    "id": 30,
+    "question": "الأمر play sound يوجد ضمن مجموعة:",
+    "options": [
+      "Sound",
+      "Motion",
+      "Control",
+      "Events"
+    ],
+    "answer": "Sound"
+  },
+  {
+    "id": 31,
+    "question": "في نموذج تحريك الكرة عشوائياً مع صوت، الترتيب المناسب للبنات هو:",
+    "options": [
+      "when green flag clicked ثم repeat ثم go to random position ثم play sound",
+      "play sound ثم when ثم repeat ثم go",
+      "go ثم play sound ثم when ثم repeat",
+      "repeat ثم play sound ثم when ثم go"
+    ],
+    "answer": "when green flag clicked ثم repeat ثم go to random position ثم play sound"
+  },
+  {
+    "id": 32,
+    "question": "الصوت المستخدم في نموذج الكرة داخل سكراتش هو:",
+    "options": [
+      "pop",
+      "Hello",
+      "Motion",
+      "Sprite"
+    ],
+    "answer": "pop"
+  },
+  {
+    "id": 33,
+    "question": "في المثال العملي، تم تشغيل صوت pop لـ:",
+    "options": [
+      "كائن الكرة",
+      "كائن القطة فقط",
+      "منطقة القوائم",
+      "ملف بايثون"
+    ],
+    "answer": "كائن الكرة"
+  },
+  {
+    "id": 34,
+    "question": "في نموذج سكراتش الذي يجعل الكائن يتحرك 50 خطوة، الأمر المستخدم هو:",
+    "options": [
+      "move 50 steps",
+      "move 10 steps",
+      "wait 1 secs",
+      "go to random position"
+    ],
+    "answer": "move 50 steps"
+  },
+  {
+    "id": 35,
+    "question": "في نموذج سكراتش، ظهور عبارة 'استعد للامتحان' لمدة ثانيتين يتم باستخدام:",
+    "options": [
+      "say 'استعد للامتحان' for 2 seconds",
+      "play sound pop",
+      "repeat 10",
+      "type(text)"
+    ],
+    "answer": "say 'استعد للامتحان' for 2 seconds"
+  },
+  {
+    "id": 36,
+    "question": "موقع Teachable Machine يستخدم لتدريب الحاسب على التعرف على:",
+    "options": [
+      "مجموعة صور الطيور والحيوانات",
+      "حفظ ملفات سكراتش",
+      "تثبيت بايثون",
+      "كتابة المتغيرات فقط"
+    ],
+    "answer": "مجموعة صور الطيور والحيوانات"
+  },
+  {
+    "id": 37,
+    "question": "في Teachable Machine يتم اختيار مشروع الصور من خلال:",
+    "options": [
+      "Image Project",
+      "Motion Project",
+      "Sound Blocks",
+      "save to your computer"
+    ],
+    "answer": "Image Project"
+  },
+  {
+    "id": 38,
+    "question": "في Teachable Machine يتم إنشاء فئة للطيور باسم:",
+    "options": [
+      "Birds",
+      "Animals",
+      "Sprite",
+      "Downloads"
+    ],
+    "answer": "Birds"
+  },
+  {
+    "id": 39,
+    "question": "في Teachable Machine يتم إنشاء فئة للحيوانات باسم:",
+    "options": [
+      "Animals",
+      "Birds",
+      "Control",
+      "Look"
+    ],
+    "answer": "Animals"
+  },
+  {
+    "id": 40,
+    "question": "في Teachable Machine، زر Train Model يستخدم من أجل:",
+    "options": [
+      "تدريب النموذج",
+      "حفظ مشروع سكراتش",
+      "تشغيل صوت الكرة",
+      "تغيير نوع المتغير"
+    ],
+    "answer": "تدريب النموذج"
+  },
+  {
+    "id": 41,
+    "question": "بعد تدريب نموذج Teachable Machine يتم اختباره عن طريق:",
+    "options": [
+      "تحميل صورة جديدة لطائر أو حيوان",
+      "تعديل قيمة move إلى 30",
+      "اختيار قائمة ملف",
+      "كتابة type(A)"
+    ],
+    "answer": "تحميل صورة جديدة لطائر أو حيوان"
+  },
+  {
+    "id": 42,
+    "question": "من نتائج استخدام Teachable Machine التحقق من قدرة النموذج على:",
+    "options": [
+      "التعرف على الصور",
+      "حفظ ملف بايثون",
+      "إضافة متغير فقط",
+      "عرض شريط القوائم"
+    ],
+    "answer": "التعرف على الصور"
+  },
+  {
+    "id": 43,
+    "question": "لتثبيت لغة بايثون نبدأ بزيارة الموقع الرسمي:",
+    "options": [
+      "www.python.org",
+      "www.scratch.org",
+      "www.motion.com",
+      "www.type.com"
+    ],
+    "answer": "www.python.org"
+  },
+  {
+    "id": 44,
+    "question": "من خطوات تثبيت بايثون اختيار:",
+    "options": [
+      "Downloads",
+      "Sound",
+      "Sprite",
+      "Stage"
+    ],
+    "answer": "Downloads"
+  },
+  {
+    "id": 45,
+    "question": "عند تنزيل بايثون يجب اختيار النظام الذي يعمل عليه الجهاز مثل:",
+    "options": [
+      "ويندوز أو ماك أو لينكس",
+      "Motion أو Look",
+      "Birds أو Animals",
+      "Sprite أو Stage"
+    ],
+    "answer": "ويندوز أو ماك أو لينكس"
+  },
+  {
+    "id": 46,
+    "question": "عند تثبيت بايثون يتم اختيار 32bit أو 64bit بناءً على:",
+    "options": [
+      "مواصفات الجهاز",
+      "اسم الكائن",
+      "لون الكائن",
+      "عدد الأصوات"
+    ],
+    "answer": "مواصفات الجهاز"
+  },
+  {
+    "id": 47,
+    "question": "بعد تنزيل برنامج بايثون يتم:",
+    "options": [
+      "تثبيت البرنامج على الجهاز",
+      "تشغيل صوت pop",
+      "اختيار مجموعة Look",
+      "حفظ مشروع سكراتش"
+    ],
+    "answer": "تثبيت البرنامج على الجهاز"
+  },
+  {
+    "id": 48,
+    "question": "من خطوات تثبيت بايثون اتباع:",
+    "options": [
+      "التعليمات اللازمة لتثبيت البرنامج",
+      "أوامر Sound فقط",
+      "أوامر Motion فقط",
+      "صور الطيور فقط"
+    ],
+    "answer": "التعليمات اللازمة لتثبيت البرنامج"
+  },
+  {
+    "id": 49,
+    "question": "في بايثون، المتغير name يستخدم لتخزين:",
+    "options": [
+      "اسم",
+      "عدد صحيح فقط",
+      "قيمة منطقية فقط",
+      "صورة"
+    ],
+    "answer": "اسم"
+  },
+  {
+    "id": 50,
+    "question": "في بايثون، المتغير age في المثال يخزن:",
+    "options": [
+      "عدد صحيح",
+      "صوت",
+      "كائن",
+      "منصة"
+    ],
+    "answer": "عدد صحيح"
+  },
+  {
+    "id": 51,
+    "question": "في بايثون، المتغير is_student في المثال يخزن:",
+    "options": [
+      "قيمة منطقية True",
+      "نص المدينة",
+      "أمر تحريك",
+      "صوت pop"
+    ],
+    "answer": "قيمة منطقية True"
+  },
+  {
+    "id": 52,
+    "question": "الأمر print في بايثون يستخدم في المثال من أجل:",
+    "options": [
+      "طباعة قيم المتغيرات",
+      "حفظ مشروع سكراتش",
+      "تدريب النموذج",
+      "تحريك الكرة"
+    ],
+    "answer": "طباعة قيم المتغيرات"
+  },
+  {
+    "id": 53,
+    "question": "في المثال >>>A=9 فإن نوع المتغير A هو:",
+    "options": [
+      "int",
+      "float",
+      "str",
+      "sound"
+    ],
+    "answer": "int"
+  },
+  {
+    "id": 54,
+    "question": "في المثال >>>B=18 فإن نوع المتغير B هو:",
+    "options": [
+      "int",
+      "float",
+      "str",
+      "sprite"
+    ],
+    "answer": "int"
+  },
+  {
+    "id": 55,
+    "question": "في المثال >>>Age=8.7 فإن نوع المتغير Age هو:",
+    "options": [
+      "float",
+      "int",
+      "str",
+      "control"
+    ],
+    "answer": "float"
+  },
+  {
+    "id": 56,
+    "question": "في المثال >>>name=\"karma\" فإن نوع المتغير name هو:",
+    "options": [
+      "str",
+      "int",
+      "float",
+      "Motion"
+    ],
+    "answer": "str"
+  },
+  {
+    "id": 57,
+    "question": "في المثال >>>city=\"Cairo\" فإن المتغير city يحتوي على:",
+    "options": [
+      "نص",
+      "عدد عشري",
+      "عدد صحيح",
+      "لبنة صوت"
+    ],
+    "answer": "نص"
+  },
+  {
+    "id": 58,
+    "question": "الدالة type في بايثون تستخدم من أجل:",
+    "options": [
+      "عرض نوع البيانات لكل متغير",
+      "تحريك الكائن",
+      "تشغيل صوت",
+      "حفظ ملف سكراتش"
+    ],
+    "answer": "عرض نوع البيانات لكل متغير"
+  },
+  {
+    "id": 59,
+    "question": "إذا كان number = 10 فإن نوع البيانات المناسب هو:",
+    "options": [
+      "int",
+      "str",
+      "float",
+      "sound"
+    ],
+    "answer": "int"
+  },
+  {
+    "id": 60,
+    "question": "إذا كان text = \"مرحبا\" فإن نوع البيانات المناسب هو:",
+    "options": [
+      "str",
+      "int",
+      "float",
+      "Control"
+    ],
+    "answer": "str"
+  }
+]
